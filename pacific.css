@@ -1,39 +1,55 @@
-header, hgroup, nav, footer, figure, figcaption, aside, section, article {
-	display: block;
+#content {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+    background: #00569f;
+    padding: 20px;
 }
+
+nav {
+    width: 200px;
+    float: left;
+}
+
+#content {
+    margin-left: 220px;
+}
+
+.resort {
+    color: #3399CC;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    background: url(marker.gif) no-repeat left center;
+    padding-left: 30px;
+}
+
 body {
-	background-color: ;
-	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
+    background: url(ptrbackground.jpg) repeat-x top;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
-	font-size: 1.2em;
-}
-nav a:visited {
-	color: #344873;
-}
-nav a:hover {
-	color: #FFFFFF;
-}
-h1 {
-	margin-bottom: 0;
-	padding: 10px;
-}
-h2 {
-	color: #3399CC;
-}
-h1,
-h2 {
-	font-family: Georgia, "Times New Roman", serif;
-}
-#contact {
-	font-size: 90%;
-}
-dt {
-	color: #000033;
-}
-footer {
-	font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2em;
 }
 
+nav a:visited,
+nav a:link {
+    color: #344873;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    clear: both;
+}
