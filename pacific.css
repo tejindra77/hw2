@@ -2,7 +2,7 @@
     width: 80%;
     min-width: 600px;
     margin: 0 auto;
-    background: white;
+    background: #f5f5f5; /* Light gray background */
     padding: 20px;
 }
 
@@ -11,33 +11,27 @@ nav {
     float: left;
 }
 
-.main-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.main-content img {
-    width: 45%;
-    margin-right: 20px;
+#content {
+    margin-left: 220px;
 }
 
 .resort {
-    color: #0077cc;
+    color: #0077cc; /* Dark blue for resort name */
 }
 
-.features {
+ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 20px;
 }
 
-.features li {
-    margin-bottom: 10px;
+ul li {
+    background: url(marker.gif) no-repeat left center;
+    padding-left: 30px;
 }
 
 body {
-    background: url(ptrbackground.jpg) repeat-x top, #f5f5f5;
-    color: #333333;
+    background: url(ptrbackground.jpg) repeat-x top, #f5f5f5; /* Light gray gradient background */
+    color: #333333; /* Dark gray text color */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -47,12 +41,12 @@ nav ul {
 
 nav a:visited,
 nav a:link {
-    color: #0077cc;
+    color: #0077cc; /* Dark blue for navigation links */
     text-decoration: none;
 }
 
 nav a:hover {
-    color: #005699;
+    color: #005699; /* Slightly darker blue on hover */
 }
 
 footer {
