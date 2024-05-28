@@ -52,4 +52,10 @@ nav a:hover {
 footer {
     font-family: Georgia, "Times New Roman", serif;
     clear: both;
+    text-align: right;
+    padding-top: 20px;
+}
+
+#copyright {
+    font-size: 90%;
 }
