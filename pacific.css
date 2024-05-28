@@ -30,7 +30,7 @@ ul li {
 }
 
 body {
-    background: url(ptrbackground.jpg) repeat-x top;
+    background: url(ptrbackground.jpg) repeat-x top, #00569f; /* Combined gradient background and solid color */
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
 }
